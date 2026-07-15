@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Firjatullah Malik Ali Yasin — Front-End Developer / UI Engineer" />
+  <title>Firjatullah Malik Ali Yasin — Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Background decorative glow ===== -->
+  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-text">Firjatullah<span class="logo-dot">.</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero section" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Saya,</span>
+          <h1 class="hero-title">Firjatullah Malik <span class="grad-text">Ali Yasin</span></h1>
+          <p class="hero-role">Front-End Developer / UI Engineer</p>
+          <p class="hero-tagline">
+            Saya merancang dan membangun antarmuka web yang cepat, rapi, dan
+            menyenangkan dipakai — memadukan estetika modern dengan kode yang bersih.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num" data-count="12">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="3">0</span>
+              <span class="stat-label">Years</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="8">0</span>
+              <span class="stat-label">Certificates</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Photo box (foto + tombol Contact Me + nama) ===== -->
+        <div class="hero-card-zone reveal">
+          <div class="photo-box">
+            <div class="photo-media">
+              <img src="foto.jpeg" alt="Foto Firjatullah Malik Ali Yasin" class="photo-img" />
+            </div>
+            <div class="photo-footer">
+              <div class="photo-info">
+                <b class="photo-name">@firjamalik_</b>
+              </div>
+              <a href="#contact" class="btn btn-primary photo-contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">01 — About</span>
+          <h2 class="section-title">Tentang Saya</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Saya seorang <strong>Front-End Developer</strong> yang berfokus pada
+              pembuatan antarmuka yang bersih, aksesibel, dan berperforma tinggi.
+              Berbasis di Karawang, Indonesia, saya senang mengubah ide menjadi
+              produk digital yang nyata.
+            </p>
+            <p>
+              Perjalanan saya dimulai dari rasa penasaran pada cara kerja website,
+              lalu berkembang menjadi kecintaan pada detail visual dan pengalaman
+              pengguna. Saya percaya desain yang baik adalah desain yang terasa
+              natural — tidak membuat pengguna berpikir dua kali.
+            </p>
+            <p>
+              Selain ngoding, saya rutin mempelajari tren UI/UX terbaru, menulis
+              catatan teknis, dan bereksperimen dengan animasi web. Tujuan saya
+              adalah tumbuh menjadi UI Engineer yang mampu menjembatani desain dan
+              teknologi secara mulus.
+            </p>
+          </div>
+          <ul class="about-highlights reveal">
+            <li><span class="hl-ic">🎯</span><div><b>Minat</b><p>UI Engineering, micro-interactions, design systems.</p></div></li>
+            <li><span class="hl-ic">💎</span><div><b>Nilai</b><p>Detail, konsistensi, dan empati terhadap pengguna.</p></div></li>
+            <li><span class="hl-ic">🚀</span><div><b>Tujuan</b><p>Membangun produk web yang cepat dan berkesan.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">02 — Skills</span>
+          <h2 class="section-title">Keahlian</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">HTML5</span><span class="skill-pct">95%</span></div><div class="skill-bar"><i style="--lvl:95%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">CSS3 / SCSS</span><span class="skill-pct">92%</span></div><div class="skill-bar"><i style="--lvl:92%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-pct">88%</span></div><div class="skill-bar"><i style="--lvl:88%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">React</span><span class="skill-pct">80%</span></div><div class="skill-bar"><i style="--lvl:80%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">UI / UX Design</span><span class="skill-pct">85%</span></div><div class="skill-bar"><i style="--lvl:85%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-name">Git &amp; GitHub</span><span class="skill-pct">83%</span></div><div class="skill-bar"><i style="--lvl:83%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">03 — Projects</span>
+          <h2 class="section-title">Proyek Pilihan</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card tilt reveal">
+            <div class="project-thumb pt-1"><span>◇</span></div>
+            <h3>Nebula Dashboard</h3>
+            <p>Dashboard analitik real-time dengan grafik interaktif, dark mode, dan komponen modular.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>Chart.js</span></div>
+            <div class="project-links"><a href="#" class="plink">Demo ↗</a><a href="#" class="plink">Repo ↗</a></div>
+          </article>
+          <article class="project-card tilt reveal">
+            <div class="project-thumb pt-2"><span>❖</span></div>
+            <h3>Aurora Store</h3>
+            <p>Front-end e-commerce dengan keranjang dinamis, filter produk, dan animasi transisi halus.</p>
+            <div class="chips"><span>JavaScript</span><span>CSS Grid</span><span>LocalStorage</span></div>
+            <div class="project-links"><a href="#" class="plink">Demo ↗</a><a href="#" class="plink">Repo ↗</a></div>
+          </article>
+          <article class="project-card tilt reveal">
+            <div class="project-thumb pt-3"><span>✦</span></div>
+            <h3>Lumen Portfolio</h3>
+            <p>Template portofolio glassmorphism dengan reveal-on-scroll dan komponen kartu 3D.</p>
+            <div class="chips"><span>HTML</span><span>Vanilla JS</span><span>Animation</span></div>
+            <div class="project-links"><a href="#" class="plink">Demo ↗</a><a href="#" class="plink">Repo ↗</a></div>
+          </article>
+          <article class="project-card tilt reveal">
+            <div class="project-thumb pt-4"><span>◈</span></div>
+            <h3>Pulse Weather</h3>
+            <p>Aplikasi cuaca yang menampilkan prakiraan 7 hari dengan animasi ikon dinamis.</p>
+            <div class="chips"><span>JavaScript</span><span>REST API</span><span>CSS Anim</span></div>
+            <div class="project-links"><a href="#" class="plink">Demo ↗</a><a href="#" class="plink">Repo ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience / Education ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">04 — Journey</span>
+          <h2 class="section-title">Experience &amp; Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-date">2025 — Sekarang</span>
+              <h3>Front-End Developer — Freelance</h3>
+              <p>Membangun landing page dan web app untuk klien UMKM & startup lokal dengan fokus performa dan UI modern.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-date">2024 — 2025</span>
+              <h3>UI Engineer Intern — Studio Digital</h3>
+              <p>Mengimplementasikan design system, komponen reusable, dan meningkatkan skor Lighthouse hingga 95+.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-date">2022 — Sekarang</span>
+              <h3>S1 Teknik Informatika — UBP Karawang</h3>
+              <p>Fokus pada rekayasa perangkat lunak, interaksi manusia-komputer, dan pengembangan web.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Certificates ===== -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">05 — Certificates</span>
+          <h2 class="section-title">Sertifikat</h2>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>Responsive Web Design</b><p>freeCodeCamp · 2024</p></div></div>
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>JavaScript Algorithms &amp; DS</b><p>freeCodeCamp · 2024</p></div></div>
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>UI/UX Design Fundamentals</b><p>Coursera · 2025</p></div></div>
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>Front-End with React</b><p>Dicoding · 2025</p></div></div>
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>Git &amp; Version Control</b><p>Udemy · 2023</p></div></div>
+          <div class="cert-card reveal"><span class="cert-ic">📜</span><div><b>Web Performance Optimization</b><p>Google · 2025</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">06 — Testimonials</span>
+          <h2 class="section-title">Kata Mereka</h2>
+        </div>
+        <div class="testi-grid">
+          <figure class="testi-card reveal">
+            <blockquote>"Firjatullah mengubah mockup kami jadi web yang mulus dan cepat. Detailnya luar biasa."</blockquote>
+            <figcaption><span class="av av-a">RA</span><div><b>Rani Ardita</b><small>Product Designer</small></div></figcaption>
+          </figure>
+          <figure class="testi-card reveal">
+            <blockquote>"Komunikatif dan rapi. Kode yang diserahkan bersih dan mudah dikembangkan tim kami."</blockquote>
+            <figcaption><span class="av av-b">DP</span><div><b>Dimas Prasetyo</b><small>Tech Lead</small></div></figcaption>
+          </figure>
+          <figure class="testi-card reveal">
+            <blockquote>"Animasinya halus dan tidak berlebihan. Persis seperti yang kami bayangkan."</blockquote>
+            <figcaption><span class="av av-c">SN</span><div><b>Siti Nurhaliza</b><small>Founder, Startup Lokal</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">07 — Contact</span>
+          <h2 class="section-title">Mari Berkolaborasi</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-lead">Punya proyek atau sekadar ingin menyapa? Kirim pesan — saya biasanya membalas dalam 24 jam.</p>
+            <ul class="contact-list">
+              <li><span class="ci-ic">✉️</span> firjatullah.dev@example.com</li>
+              <li><span class="ci-ic">📍</span> Karawang, Jawa Barat, Indonesia</li>
+              <li><span class="ci-ic">🕓</span> Tersedia untuk freelance &amp; full-time</li>
+            </ul>
+            <div class="socials">
+              <a href="#" class="soc" aria-label="GitHub">GH</a>
+              <a href="#" class="soc" aria-label="LinkedIn">IN</a>
+              <a href="#" class="soc" aria-label="Instagram">IG</a>
+              <a href="#" class="soc" aria-label="Dribbble">DR</a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama lengkap Anda" />
+              <small class="err" data-for="name"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@email.com" />
+              <small class="err" data-for="email"></small>
+            </div>
+            <div class="field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" placeholder="Ceritakan proyek Anda..."></textarea>
+              <small class="err" data-for="message"></small>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+            <p class="form-success" id="formSuccess">✓ Terima kasih! Pesan Anda sudah terkirim (demo).</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo-text">Firjatullah<span class="logo-dot">.</span></span>
+      <p>&copy; <span id="year"></span> Firjatullah Malik Ali Yasin. Dibuat dengan HTML, CSS &amp; Vanilla JS.</p>
+      <a href="#home" class="to-top" aria-label="Kembali ke atas">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
